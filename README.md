@@ -96,6 +96,7 @@ This libraries allows to work with the GPIO port for various boards like Raspber
 * [Lightweight MQTT Machine Network ★ 21 ⧗ 1](http://lwmqn.github.io/) - LWMQN is a machine network framework with MQTT. See also: IPSO Alliance [Technical Archive](http://www.ipso-alliance.org/ipso-community/resources/technical-archive/).
 * [Liota ★ 162 ⧗ 2](https://github.com/vmware/liota) - is an open source offering for IoT solution developers and resides primarily on IoT gateways.
 * [OpenDevice ★ 23 ⧗ 8](https://github.com/OpenDevice/OpenDevice) - Open IoT (Internet Of Things) Platform and Framework.
+* [GlowBarn](https://github.com/bad-antics/glowbarn-rs) - High-performance Rust-based multi-sensor anomaly detection system with EMF, temperature, barometric, humidity, UV sensor support and real-time WebSocket streaming.
 * [Pando Cloud ★ 75 ⧗ 2](https://github.com/PandoCloud/pando-cloud) - is the cloud part of Pando IoT solution. It's made of a bunch of tools, protocols and frameworks below: Pando Cloud, Pando Embedded Framework, Pando Protocol as so on.
 * [Pingo ★ 211 ⧗ 0](https://github.com/pingo-io/pingo-py) - Generic API for controlling boards with programmable IO pins.
 * [PolyMCU ★ 84 ⧗ 2](https://github.com/labapart/polymcu) - has been designed from the beginning to be as flexible as possible: host OS independent, support any toolchain, any RTOS, any micro-controller vendor SDK.
