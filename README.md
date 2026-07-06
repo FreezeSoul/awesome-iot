@@ -190,6 +190,7 @@ This libraries allows to work with the GPIO port for various boards like Raspber
 * [node-iotdb ★ 19 ⧗ 61](https://github.com/dpjanes/node-iotdb) - Easily control the Internet of Things using Semantics.
 * [HStreamDB ★ 172](https://github.com/hstreamdb/hstream) - The streaming database built for IoT data storage and real-time processing.
 * [AimDB ★ 2](https://github.com/aimdb-dev/aimdb) - An async, in-memory data bridge that syncs records across microcontrollers, edge gateways and cloud instances. Define once, stream and sync everywhere.
+* [ReductStore ★ 360](https://github.com/reductstore/reductstore) - high-performance blob and time-series storage for industrial IoT, with edge deployment, selective replication, and efficient querying of multimodal data. 
 
 ## Security
 
