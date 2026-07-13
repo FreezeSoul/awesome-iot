@@ -261,6 +261,7 @@ This libraries allows to work with the GPIO port for various boards like Raspber
 * [HiveMQ ★ 329 ⧗ 0](https://github.com/hivemq/hivemq-community-edition) - is an open source MQTT platform and MQTT broker.
 * [Hologram](https://hologram.io/) - Open source, full stack platform with standalone devices and usb plug in. Offers a free developer tier.
 * **[IoT.js ★ 921 ⧗ 0](https://github.com/Samsung/iotjs)** - Platform for Internet of Things with JavaScript.
+* **[IoT DC3 ★ 650 ⧗ 0](https://github.com/pnoker/iot-dc3)** - A fully open-source, distributed industrial IoT platform built on Spring Cloud, evolving for AI scenarios. Enables rapid IoT project development and connected-device management. [(Docs)](https://docs.dc3.site)
 * [IoTgo ★ 173 ⧗ 0](https://github.com/itead/IoTgo) - is an open source IoT platform, like WordPress, ZenCart and all other open source software, you can deploy your own IoTgo cloud service.
 * [Iotellect](https://iotellect.com) - A low-code IoT/IIoT Application Enablement Platform (AEP) for building, deploying and managing industrial automation, remote monitoring and smart infrastructure solutions. Integrates edge and cloud capabilities with MQTT, OPC-UA, Modbus and 100+ protocols support.
 * [Jasper](http://jasperproject.github.io/) - Jasper is an open source platform for developing always-on, voice-controlled applications.
