@@ -132,6 +132,7 @@ This libraries allows to work with the GPIO port for various boards like Raspber
 * [Windows Remote Arduino ★ 98 ⧗ 13](https://github.com/ms-iot/remote-wiring) - Remote "Arduino Wiring" interface for Windows 8.1, Windows Phone 8.1 and Windows 10. Used to control an Arduino from a Universal Windows Platform application.
 * [WiringPi ★ 455 ⧗ 11](https://github.com/WiringPi/WiringPi) - Gordon's Arduino wiring-like WiringPi Library for the Raspberry Pi.
 * [Theengs decoder](https://decoder.theengs.io) Lightweight parsing library compatible with multiple OS and platforms.
+* [Servomotor](https://github.com/tomrodinger/Servomotor_Arduino_Library) - Arduino library for integrated closed-loop NEMA 17 servomotors that share one RS-485 bus.
 
 ### Low Level
 
