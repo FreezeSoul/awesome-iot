@@ -396,8 +396,11 @@ def commandline():
                             exclude_h=exclude_h)
 
     if not args.output:
-        output = getattr(sys.stdout, 'buffer', sys.stdout)
-        output.write(cont.encode('utf-8'))
+        output = getattr(sys.stdout, 'buffer', None)
+        if output is None:
+            sys.stdout.write(cont)
+        else:
+            output.write(cont.encode('utf-8'))
 
 if __name__ == '__main__':
     commandline()
