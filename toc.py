@@ -22,7 +22,9 @@
 #
 
 import argparse
+import io
 import re
+import sys
 
 
 __version__ = '1.7.1'
@@ -33,7 +35,7 @@ VALIDS = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-&'
 def read_lines(in_file):
     """Returns a list of lines from a input markdown file."""
 
-    with open(in_file, 'r') as inf:
+    with io.open(in_file, 'r', encoding='utf-8') as inf:
         in_contents = inf.read().split('\n')
     return in_contents
 
@@ -244,7 +246,7 @@ def output_markdown(markdown_cont, output_file):
 
     """
     if output_file:
-        with open(output_file, 'w') as out:
+        with io.open(output_file, 'w', encoding='utf-8', newline='') as out:
             out.write(markdown_cont)
 
 
@@ -394,7 +396,11 @@ def commandline():
                             exclude_h=exclude_h)
 
     if not args.output:
-        print(cont)
+        output = getattr(sys.stdout, 'buffer', None)
+        if output is None:
+            sys.stdout.write(cont)
+        else:
+            output.write(cont.encode('utf-8'))
 
 if __name__ == '__main__':
     commandline()
